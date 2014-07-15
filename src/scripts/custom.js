@@ -1,1 +1,1 @@
-console.log('custom scripts');
+$(document).foundation();
