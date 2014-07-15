@@ -9,9 +9,13 @@ Also includes [Foundation's iconfont](https://github.com/zurb/foundation-icon-fo
 * Concatenates Foundation's JavaScript and your own JavaScript into ```./dist/js/all.js```
 
 ##Setup
+=======
 
-Clone/download and run the following commands:
+###Step 1
+Run ```npm install``` to install all the Node and Gulp plugins.
 
-* ```npm install```
-* ```bower install```
-* ```gulp```
+###Step 2
+Run ```bower install``` to install all the bower components for Foundation.
+
+###Step 3
+Run ```gulp``` to compile Sass into style.css and concatenate all JS into all.js and 
