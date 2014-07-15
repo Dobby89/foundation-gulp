@@ -9,7 +9,7 @@ var notify = require('gulp-notify');
 // Source Paths
 var src_paths = {
 	bower: 'bower_components',
-	scripts: 'src/scripts',
+	scripts: 'src/scripts/*.js',
 	sass: 'src/sass/**/*.scss',
 	images: 'src/images/**',
 	fonts: 'src/fonts/**'
@@ -43,12 +43,12 @@ gulp.task('sass', function() {
 // Concatenate and minify JS
 gulp.task('scripts', function() {
 	return gulp.src([
-			'bower_components/jquery/dist/jquery.js',
-			'bower_components/jquery/dist/jquery.placeholder.js',
-			'bower_components/fastclick/lib/fastclick.js',
-			'bower_components/modernizr/modernizr.js',
-			'bower_components/foundation/js/foundation.js',
-			src_paths.scripts + '/*.js'
+			src_paths.bower + '/modernizr/modernizr.js',
+			src_paths.bower + '/fastclick/lib/fastclick.js',
+			src_paths.bower + '/jquery/dist/jquery.js',
+			src_paths.bower + '/jquery/dist/jquery.placeholder.js',
+			src_paths.bower + '/foundation/js/foundation.js',
+			src_paths.scripts
 		])
 //		.pipe(order([
 //			'jquery-1.11.1.js', // Decide which order to concatenate the js files if they need to be concatenated in a certain order
