@@ -1,9 +1,9 @@
-foundation-gulp
-===============
+Foundation 5 - Gulp Template
+============================
 
-A basic setup for Foundation 5 compiling CSS with gulp
+A basic setup for Foundation 5, which uses gulp to compile ```.scss``` in to ```.css``` and concatenate ```.js``` files.
 
-Run the following commands
+To set up, run the following commands in order:
 
 * ```npm install```
 * ```bower install```
