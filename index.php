@@ -39,6 +39,8 @@
 		</section>
 	</nav>
 
+	<div class="fi-address-book icon"></div>
+
 </body>
 	<script type="text/javascript" src="dist/js/all.js"></script>
 </html>

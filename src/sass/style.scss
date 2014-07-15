@@ -1,8 +1,8 @@
 @import "settings"; // Override settings for Foundation
 @import "foundation"; // Include all Foundation components
 
-$fi-path: "../fonts";
-@import "foundation-icons"; // Include the Foundation icon font
+$fi-path: "../fonts"; // path to the font directory (relatice to the compiled CSS)
+@import "foundation-icons"; // Include the Foundation icon font (it's not part of Foundation by default)
 
 // Or selectively include components
 // @import
@@ -41,3 +41,7 @@ $fi-path: "../fonts";
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+.icon {
+	font-size: 4em;
+}
