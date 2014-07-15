@@ -8,8 +8,6 @@
 	<title>Foundation</title>
 
 	<link rel="stylesheet" href="dist/css/style.css" />
-
-	<script type="text/javascript" src="dist/js/all.js"></script>
 </head>
 <body>
 
@@ -42,4 +40,5 @@
 	</nav>
 
 </body>
+	<script type="text/javascript" src="dist/js/all.js"></script>
 </html>
