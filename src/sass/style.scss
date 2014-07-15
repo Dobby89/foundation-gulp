@@ -1,6 +1,9 @@
 @import "settings"; // Override settings for Foundation
 @import "foundation"; // Include all Foundation components
 
+$fi-path: "../fonts";
+@import "foundation-icons"; // Include the Foundation icon font
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",

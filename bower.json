@@ -1,17 +1,18 @@
 {
-	"name": "foundation-gulp-template",
-	"version": "1.0.0",
-	"authors": [
-		"Robin"
-	],
-	"description": "Gulp template to start a Foundation 5 project.",
-	"license": "MIT",
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components"
-	],
-	"devDependencies": {
-		"foundation": "~5.2.2"
-	}
+  "name": "foundation-gulp-template",
+  "version": "1.0.0",
+  "authors": [
+    "Robin"
+  ],
+  "description": "Gulp template to start a Foundation 5 project.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "foundation": "~5.2.2",
+    "foundation-icon-fonts": "zurb/foundation-icon-fonts"
+  }
 }

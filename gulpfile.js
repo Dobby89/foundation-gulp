@@ -18,7 +18,8 @@ var src_paths = {
 // Dist Paths
 var dist_paths = {
 	js: 'dist/js',
-	css: 'dist/css'
+	css: 'dist/css',
+	fonts: 'dist/fonts'
 };
 
 // Setup paths for compass paths
@@ -29,7 +30,7 @@ var compass_options = {
 };
 
 // Compile Sass
-gulp.task('sass', function() {
+gulp.task('sass', ['copyFoundationFonts'], function() {
 
 	gulp.src(src_paths.sass)
 		.pipe(compass(compass_options)) // use gulp-compass to compile sass files
@@ -59,6 +60,17 @@ gulp.task('scripts', function() {
 		.pipe(gulp.dest(dist_paths.js));
 });
 
+// Copy Foundation Icon fonts into dist/fonts directory for the CSS to use
+gulp.task('copyFoundationFonts', function() {
+	return gulp.src([
+			src_paths.bower + '/foundation-icon-fonts/foundation-icons.eot',
+			src_paths.bower + '/foundation-icon-fonts/foundation-icons.woff',
+			src_paths.bower + '/foundation-icon-fonts/foundation-icons.ttf',
+			src_paths.bower + '/foundation-icon-fonts/foundation-icons.svg'
+		])
+		.pipe(gulp.dest(dist_paths.fonts));
+});
+
 // Watch files for changes
 gulp.task('watch', function() {
 	gulp.watch(src_paths.sass, ['sass']);
@@ -66,4 +78,4 @@ gulp.task('watch', function() {
 });
 
 // Default task
-gulp.task('default', ['sass', 'scripts', 'watch']);
+gulp.task('default', ['copyFoundationFonts', 'sass', 'scripts', 'watch']);
