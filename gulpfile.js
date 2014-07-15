@@ -51,11 +51,6 @@ gulp.task('scripts', function() {
 			src_paths.bower + '/foundation/js/foundation.js',
 			src_paths.scripts
 		])
-//		.pipe(order([
-//			'jquery-1.11.1.js', // Decide which order to concatenate the js files if they need to be concatenated in a certain order
-//			'jquery.geocomplete.js',
-//			'custom.js'
-//		]))
 		.pipe(concat('all.js'))
 		.pipe(gulp.dest(dist_paths.js));
 });
