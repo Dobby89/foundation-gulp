@@ -4,11 +4,11 @@ add_import_path "bower_components/foundation-icon-fonts"
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "static/css"
-sass_dir = "static/sass"
-images_dir = "static/images"
-javascripts_dir = "static/js"
-fonts_dir = "static/fonts"
+css_dir = "dist/css"
+sass_dir = "src/sass"
+images_dir = "src/images"
+javascripts_dir = "src/scripts"
+fonts_dir = "src/fonts"
 
 # You can select your preferred output style here (can be overridden via the command line):
 output_style = :expanded
