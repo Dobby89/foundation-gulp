@@ -17,7 +17,7 @@ var src_paths = {
 
 // Dist Paths
 var dist_paths = {
-	js: 'dist/js',
+	scripts: 'dist/scripts',
 	css: 'dist/css',
 	fonts: 'dist/fonts'
 };
@@ -52,7 +52,7 @@ gulp.task('scripts', function() {
 			src_paths.scripts
 		])
 		.pipe(concat('all.js'))
-		.pipe(gulp.dest(dist_paths.js));
+		.pipe(gulp.dest(dist_paths.scripts));
 });
 
 // Copy Foundation Icon fonts into dist/fonts directory for the CSS to use
