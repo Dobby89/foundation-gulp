@@ -25,11 +25,19 @@ $ gulp
 
 ## Watch Assets
 
-To watch for changes to styles and scripts:
+To watch for changes to styles, scripts and images:
 ```
-$ gulp watch // Watch styles, scripts and images
-$ gulp watch:styles // Only watch styles
-$ gulp watch:scripts // Only watch scripts
+$ gulp watch
+```
+
+To ONLY watch styles:
+```
+$ gulp watch:styles
+```
+
+To ONLY watch scripts:
+```
+$ gulp watch:scripts
 ```
 
 ## Serve
