@@ -1,19 +1,40 @@
-Foundation 5 - Gulp Template
-============================
+#Foundation 5 - Gulp Boilerplate
 
-A basic template for Foundation 5, which uses Gulp to process bower components from ```./bower_components``` and your own custom assets directory ```./src``` into a distribution directory ```./dist```.
+## Key Features
+* Compiles and concatenates Foundation's Sass files, Foundation's iconfont and your own Sass files.
+* Concatenates Foundation's JavaScript and your own JavaScript using Browserify.
+* Watches for changes to styles, scripts and images.
+* Serves the files.
 
-* Compiles and concatenates Foundation's Sass files, Foundation's iconfont and your own Sass files into a single file ```./dist/css/style.css```
-* Concatenates Foundation's JavaScript and your own JavaScript into a single file ```./dist/js/all.js```
+## Getting Started
 
-##Setup
-=======
+Install Node packages:
+```
+$ npm install
+```
 
-###Step 1
-Run ```npm install``` to install all the Node and Gulp plugins.
+Install Bower components:
+```
+$ bower install
+```
 
-###Step 2
-Run ```bower install``` to install all the bower components for Foundation.
+Compile and process styles and scripts (with browserify):
+```
+$ gulp
+```
 
-###Step 3
-Run ```gulp``` to compile Sass into style.css and concatenate all JS into all.js and 
+## Watch Assets
+
+To watch for changes to styles and scripts:
+```
+$ gulp watch // Watch styles, scripts and images
+$ gulp watch:styles // Only watch styles
+$ gulp watch:scripts // Only watch scripts
+```
+
+## Serve
+
+To serve static files from base directory or as a proxy server (as `127.0.0.1:8000` or something like `yourlocal.dev`):
+```
+$ gulp serve // Uses BrowserSync - further config may be required
+```
