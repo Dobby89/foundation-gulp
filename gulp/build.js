@@ -92,7 +92,7 @@ gulp.task('styles', function () {
       sass: 'styles',
 //      require: ['compass-normalize'], // include any ruby gems here, so compass knows to require them
       import_path: ['../bower_components/'], // so the compiler knows to look for scss files within the bower directory as well (relative path to the static directory)
-      logging  : false,
+      logging  : true,
       comments : false,
       style: 'expanded', // e.g. nested, expanded, compact, or compressed
       sourcemap: false
