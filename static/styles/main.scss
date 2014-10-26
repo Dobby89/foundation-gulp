@@ -1,44 +1,43 @@
 @import "settings"; // Override settings for Foundation
 
 @import "foundation/scss/normalize";
-@import "foundation/scss/foundation"; // Include all Foundation components
+//@import "foundation/scss/foundation"; // Include all Foundation components
 // Or selectively include components
-//@import
-//    "foundation/scss/foundation/components/accordion",
-//    "foundation/scss/foundation/components/alert-boxes",
-//    "foundation/scss/foundation/components/block-grid",
-//    "foundation/scss/foundation/components/breadcrumbs",
-//    "foundation/scss/foundation/components/button-groups",
-//    "foundation/scss/foundation/components/buttons",
-//    "foundation/scss/foundation/components/clearing",
-//    "foundation/scss/foundation/components/dropdown",
-//    "foundation/scss/foundation/components/dropdown-buttons",
-//    "foundation/scss/foundation/components/flex-video",
-//    "foundation/scss/foundation/components/forms",
-//    "foundation/scss/foundation/components/grid",
-//    "foundation/scss/foundation/components/inline-lists",
-//    "foundation/scss/foundation/components/joyride",
-//    "foundation/scss/foundation/components/keystrokes",
-//    "foundation/scss/foundation/components/labels",
-//    "foundation/scss/foundation/components/magellan",
-//    "foundation/scss/foundation/components/orbit",
-//    "foundation/scss/foundation/components/pagination",
-//    "foundation/scss/foundation/components/panels",
-//    "foundation/scss/foundation/components/pricing-tables",
-//    "foundation/scss/foundation/components/progress-bars",
-//    "foundation/scss/foundation/components/reveal",
-//    "foundation/scss/foundation/components/side-nav",
-//    "foundation/scss/foundation/components/split-buttons",
-//    "foundation/scss/foundation/components/sub-nav",
-//    "foundation/scss/foundation/components/switch",
-//    "foundation/scss/foundation/components/tables",
-//    "foundation/scss/foundation/components/tabs",
-//    "foundation/scss/foundation/components/thumbs",
-//    "foundation/scss/foundation/components/tooltips",
-//    "foundation/scss/foundation/components/top-bar",
-//    "foundation/scss/foundation/components/type",
-//    "foundation/scss/foundation/components/offcanvas",
-//    "foundation/scss/foundation/components/visibility";
+@import "foundation/scss/foundation/components/accordion";
+@import "foundation/scss/foundation/components/alert-boxes";
+@import "foundation/scss/foundation/components/block-grid";
+@import "foundation/scss/foundation/components/breadcrumbs";
+@import "foundation/scss/foundation/components/button-groups";
+@import "foundation/scss/foundation/components/buttons";
+@import "foundation/scss/foundation/components/clearing";
+@import "foundation/scss/foundation/components/dropdown";
+@import "foundation/scss/foundation/components/dropdown-buttons";
+@import "foundation/scss/foundation/components/flex-video";
+@import "foundation/scss/foundation/components/forms";
+@import "foundation/scss/foundation/components/grid";
+@import "foundation/scss/foundation/components/inline-lists";
+@import "foundation/scss/foundation/components/joyride";
+@import "foundation/scss/foundation/components/keystrokes";
+@import "foundation/scss/foundation/components/labels";
+@import "foundation/scss/foundation/components/magellan";
+@import "foundation/scss/foundation/components/orbit";
+@import "foundation/scss/foundation/components/pagination";
+@import "foundation/scss/foundation/components/panels";
+@import "foundation/scss/foundation/components/pricing-tables";
+@import "foundation/scss/foundation/components/progress-bars";
+@import "foundation/scss/foundation/components/reveal";
+@import "foundation/scss/foundation/components/side-nav";
+@import "foundation/scss/foundation/components/split-buttons";
+@import "foundation/scss/foundation/components/sub-nav";
+@import "foundation/scss/foundation/components/switch";
+@import "foundation/scss/foundation/components/tables";
+@import "foundation/scss/foundation/components/tabs";
+@import "foundation/scss/foundation/components/thumbs";
+@import "foundation/scss/foundation/components/tooltips";
+@import "foundation/scss/foundation/components/top-bar";
+@import "foundation/scss/foundation/components/type";
+@import "foundation/scss/foundation/components/offcanvas";
+@import "foundation/scss/foundation/components/visibility";
 
 $fi-path: "../fonts"; // path to the font directory (relative to the compiled CSS)
 @import "foundation-icon-fonts/foundation-icons"; // Include the Foundation icon font (it's not part of Foundation by default)
