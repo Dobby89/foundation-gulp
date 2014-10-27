@@ -3,6 +3,7 @@
 @import "foundation/scss/normalize";
 //@import "foundation/scss/foundation"; // Include all Foundation components
 // Or selectively include components
+@import "foundation/scss/foundation/components/grid";
 @import "foundation/scss/foundation/components/accordion";
 @import "foundation/scss/foundation/components/alert-boxes";
 @import "foundation/scss/foundation/components/block-grid";
@@ -14,7 +15,7 @@
 @import "foundation/scss/foundation/components/dropdown-buttons";
 @import "foundation/scss/foundation/components/flex-video";
 @import "foundation/scss/foundation/components/forms";
-@import "foundation/scss/foundation/components/grid";
+@import "foundation/scss/foundation/components/icon-bar";
 @import "foundation/scss/foundation/components/inline-lists";
 @import "foundation/scss/foundation/components/joyride";
 @import "foundation/scss/foundation/components/keystrokes";
@@ -25,11 +26,12 @@
 @import "foundation/scss/foundation/components/panels";
 @import "foundation/scss/foundation/components/pricing-tables";
 @import "foundation/scss/foundation/components/progress-bars";
+@import "foundation/scss/foundation/components/range-slider";
 @import "foundation/scss/foundation/components/reveal";
 @import "foundation/scss/foundation/components/side-nav";
 @import "foundation/scss/foundation/components/split-buttons";
 @import "foundation/scss/foundation/components/sub-nav";
-@import "foundation/scss/foundation/components/switch";
+@import "foundation/scss/foundation/components/switches";
 @import "foundation/scss/foundation/components/tables";
 @import "foundation/scss/foundation/components/tabs";
 @import "foundation/scss/foundation/components/thumbs";
