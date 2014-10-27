@@ -18,6 +18,13 @@ Install Bower components:
 $ bower install
 ```
 
+Install Ruby Gems:
+```
+// This exact combination of sass and compass is the only one which seems to work with Foundation (see: http://foundation.zurb.com/forum/posts/18630-scss-compiles-but-resulting-css-file-incomplete)
+$ gem install sass --version 3.2.9
+$ gem install compass --version 0.12.7
+```
+
 Compile and process styles and scripts (with browserify):
 ```
 $ gulp
