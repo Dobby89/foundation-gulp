@@ -39,7 +39,7 @@ $ gulp watch
 
 To ONLY watch styles:
 ```
-$ gulp watch:styles
+$ gulp watch:styles // Currently using gulp-compass, but a dormant libsass task is available
 ```
 
 To ONLY watch scripts:
