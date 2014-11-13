@@ -1,8 +1,8 @@
 {
-  "name": "foundation-gulp-template",
-  "version": "1.0.0",
-  "description": "Gulp template to start a Foundation 5 project.",
-  "main": "gulp.js",
+  "name": "foundation-gulp-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate to start a Foundation project using Gulp.",
+  "main": "gulpfile.js",
   "author": "Robin",
   "dependencies": {
     "debowerify": "^0.7.1",

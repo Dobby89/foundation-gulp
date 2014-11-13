@@ -1,15 +1,17 @@
 {
-  "name": "foundation-gulp-template",
-  "version": "1.0.0",
+  "name": "foundation-gulp-boilerplate",
+  "version": "0.0.1",
   "authors": [
     "Robin"
   ],
-  "description": "Gulp template to start a Foundation 5 project.",
+  "description": "Boilerplate to start a Foundation project using Gulp.",
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components"
+    "bower_components",
+    "test",
+    "tests"
   ],
   "devDependencies": {
     "foundation": "~5.2.2",
