@@ -20,6 +20,7 @@
   "devDependencies": {
     "browser-sync": "^1.1.1",
     "gulp-autoprefixer": "^0.0.8",
+    "gulp-bless": "^3.0.1",
     "gulp-compass": "^2.0.1",
     "gulp-consolidate": "^0.1.2",
     "gulp-debug": "^1.0.0",

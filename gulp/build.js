@@ -102,6 +102,9 @@ gulp.task('styles', function () {
     .pipe($.autoprefixer('last 2 version'))
     // catch any compilation errors and output to the console and a popup to stop the process needing to be restarted every time there's an error
     .on('error', errorAlert)
+    .pipe($.bless({
+      imports: false
+    }))
     .pipe($.size({title: 'main.css'}))
     .pipe(gulp.dest('static/dist/styles'));
 });
